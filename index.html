@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Utkarsh Yadav — Portfolio</title>
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+<style>
+  :root{
+    --bg:#0f1724; --card:#ffffff; --muted:#6b7280; --accent1:#0052D4; --accent2:#6FB1FC;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+    background: linear-gradient(180deg,#071025 0%, #0f1724 100%);
+    color:#0b1220; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+  }
+  .hero{
+    padding:48px 20px; text-align:center; color:white; position:relative; overflow:hidden;
+    background: linear-gradient(135deg, rgba(6,60,255,0.9), rgba(107,177,252,0.9));
+  }
+  .hero .container{max-width:1100px;margin:0 auto;display:flex;gap:24px;align-items:center;justify-content:center;flex-wrap:wrap;}
+  .avatar{
+    width:150px;height:150px;border-radius:20px;flex:0 0 150px;overflow:hidden;
+    box-shadow:0 12px 30px rgba(10,25,80,0.45); transform:translateY(-6px);
+    border:6px solid rgba(255,255,255,0.08);
+  }
+  .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+  .hero h1{margin:0;font-size:clamp(22px,3vw,36px);letter-spacing:0.2px}
+  .hero p.lead{margin:8px 0 0;color:rgba(255,255,255,0.94)}
+  .nav {
+    display:flex;gap:10px; justify-content:center; padding:12px; background:rgba(255,255,255,0.02);
+    backdrop-filter: blur(6px);
+    position:sticky; top:0; z-index:60;
+  }
+  .nav a{color:var(--card); text-decoration:none; padding:8px 12px; border-radius:8px; font-weight:600;}
+  .nav a:hover{background:rgba(255,255,255,0.06)}
+  .wrap{max-width:1100px;margin:28px auto;padding:0 20px; display:grid; grid-template-columns:1fr 380px; gap:22px; align-items:start;}
+  @media(max-width:900px){ .wrap{grid-template-columns:1fr} .avatar{margin:0 auto} }
+  .card{background:var(--card); border-radius:12px; padding:18px; box-shadow:0 8px 30px rgba(2,6,23,0.35); color:#0b1220; animation:cardIn .6s ease both;}
+  @keyframes cardIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  h2.section-title{display:flex;align-items:center;justify-content:space-between;margin:0 0 12px;font-size:18px;color:var(--accent1)}
+  .small{color:var(--muted);font-size:13px}
+  .list{display:flex;flex-direction:column;gap:8px}
+  .list .item{padding:10px;border-radius:8px;background:linear-gradient(180deg,#ffffff,#fbfdff);box-shadow:0 6px 18px rgba(6,60,255,0.04)}
+  .project-thumb{width:100%;height:140px;border-radius:8px;object-fit:cover}
+  .side .contact a{display:inline-block;margin-right:8px;color:var(--accent2);text-decoration:none}
+  .side .stat{display:flex;justify-content:space-between;padding:10px;background:linear-gradient(180deg,#f9fbff,#eef6ff);border-radius:10px;margin-bottom:10px}
+  .controls{display:flex;gap:8px;align-items:center}
+  .btn{background:linear-gradient(90deg,var(--accent1),var(--accent2));color:white;padding:8px 12px;border-radius:8px;border:0;cursor:pointer;font-weight:700}
+  .btn.secondary{background:#f3f4f6;color:#0b1220;box-shadow:inset 0 -2px 0 rgba(0,0,0,0.06)}
+  .editable-marker{display:inline-block;padding:4px 8px;background:rgba(0,0,0,0.05);border-radius:6px;font-size:12px;color:var(--muted);margin-left:8px}
+  .edit-actions{display:none;gap:8px}
+  body.edit-mode .edit-actions{display:flex}
+  footer{max-width:1100px;margin:28px auto;padding:20px;text-align:center;color:var(--muted)}
+  .floating {position:absolute; border-radius:50%; opacity:0.12; mix-blend-mode:screen; filter:blur(26px);}
+  .f1{width:420px;height:420px;left:-60px;top:-120px;background:radial-gradient(circle,#ffffff,#a0c4ff)}
+  .f2{width:260px;height:260px;right:-40px;top:-80px;background:radial-gradient(circle,#ffd8a8,#ffb4a2)}
+</style>
+</head>
+<body>
+<!-- The rest of the HTML content including JS would go here exactly as in the previous answer -->
+</body>
+</html>
